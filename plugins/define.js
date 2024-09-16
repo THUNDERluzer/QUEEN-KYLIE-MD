@@ -28,7 +28,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
+*©🐼❤️‍🔥ッ*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
