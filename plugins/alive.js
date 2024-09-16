@@ -5,7 +5,7 @@ cmd({
     pattern: "alive",
     desc: "Check bot online or no.",
     category: "main",
-    react: "👋",
+    react: "💁‍♂️",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -13,24 +13,21 @@ try{
 const voice = {
     alive: 'media/AUD-20240909-WA0003'
                     }
-let des = `*👋 Hello ${pushname}*
+let des = `*💁‍♂️❣️ආයුබෝවන් ${pushname}*
 
 *╔╭────────────╮╕*
 *╭│I'm Alive Now👾  │─◎◎▷*
 *╘╰────────────╯╜*
-*│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
+*│A PANDA-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
 *| So,I Think This Bots Are Useful To You.📍*
 *│*
 *│Type .menu To Get Bot User*
 *│Menu💫*
 *╰───────────────◎◎▷*
- *➣ ʏᴏᴜᴛᴜʙᴇ⚡*= https://www.youtube.com/@Sahas_Tech
 
-*➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ⚡* = https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+*©සේව් දාගනිම්💁‍♂️❣️`
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tCkmbMx/IMG-20240913-WA0041.jpg`},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
