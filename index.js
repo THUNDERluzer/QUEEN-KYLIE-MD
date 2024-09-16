@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94782543893']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting QUEEN-KYLIE-MD BOT 🤖...");
+console.log("Connecting Panda-MD BOT 🤖...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,28 +69,26 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
+let up = `🚀 *_Panda-MD Connected Successfully!_* ✅ 
 
---- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
+--- *🧚‍♀️🎉 _Welcome to Panda-MD!_* 🎉🧚‍♀️ 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
 
-_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
+_Thank you for using_ *🧚‍♀️Panda-MD💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+*🖇️ඉන්බොක්ස් වර සේව් දාන්න 💁‍♂️❣️
 
 _*🧚‍♀️Enjoy your time with us!😊*_
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
+*Panda Bot 🐼❤️‍🔥ッ* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/dbvfMrN/IMG-20240913-WA0043.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg` }, caption: up })
 
 }
 })
@@ -159,15 +157,15 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94718913389")){
+if(senderNumber.includes("94782543893")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94718212256")){
+if(senderNumber.includes("94782543893")){
 if(isReact) return
 m.react("😂")
 }
-if(senderNumber.includes("94765527900")){
+if(senderNumber.includes("94782543893")){
 if(isReact) return
 m.react("📍")
 }       
