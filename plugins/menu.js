@@ -37,11 +37,11 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = ` *👋 Hello ${pushname}*
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗤𝗨𝗘𝗘𝗡-𝗞𝗬𝗟𝗜𝗘-𝗠𝗗! ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 PANDA-𝗠𝗗! ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ(ꜱᴀʜᴀꜱ ᴛᴇᴄʜ
-│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94718913389
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : 💁‍♂️Hashan🐼❤️‍🔥
+│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94782543893
 ╰──────────●●►
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
@@ -84,12 +84,12 @@ let madeMenu = ` *👋 Hello ${pushname}*
  ${menu.other}
 ╰───────────●●►
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+*©🐼❤️‍🔥ッ*
 `
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/13/83ac01c405f9d78df8dacb96400ac5c2.jpeg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
