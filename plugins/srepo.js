@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         repoInfo += `⭐ *Stars*: ${data.stargazers_count}\n`;
         repoInfo += `🍴 *Forks*: ${data.forks_count}\n`;
         repoInfo += `\n`;
-        repoInfo += `*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*\n`;
+        repoInfo += `*©🐼❤️‍🔥ッ*\n`;
 
         await conn.sendMessage(from, { text: repoInfo }, { quoted: mek });
     } catch (e) {
