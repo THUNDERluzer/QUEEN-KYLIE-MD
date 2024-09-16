@@ -25,7 +25,7 @@ let des = `*💁‍♂️❣️ආයුබෝවන් ${pushname}*
 *│Menu💫*
 *╰───────────────◎◎▷*
 
-*©සේව් දාගනිම්💁‍♂️❣️`
+*©සේව් දාගනිම්💁‍♂️❣️*`
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`},caption: des},{quoted: mek})
 }catch(e){
