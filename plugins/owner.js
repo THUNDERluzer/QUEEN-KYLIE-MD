@@ -4,7 +4,7 @@ cmd({
     pattern: "owner",
     desc: "owner the bot",
     category: "main",
-    react: "👨‍💻",
+    react: "💁‍♂️",
     filename: __filename
 },
 
@@ -15,14 +15,13 @@ let dec = `*👋 Hello ${pushname}*
 
 > *MY OWNER INFO* 
 
-*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
-*⚡ɴᴜᴍʙᴇʀ* -: 94718913389
-*⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
-*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: Hashan*
+*⚡ɴᴜᴍʙᴇʀ* -: 94782543893*
+*⚡මාව සේව් දාන්න💁‍♂️ -:* https://wa.me/qr/P6WADRJOKAFUK1*
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+*©🐼❤️‍🔥ッ*
 `
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/98y2Jzz/IMG-20240913-WA0046.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
