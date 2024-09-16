@@ -17,10 +17,10 @@ let status =`┌────────────────────
     *├ ⏰ Runtime:-  ${runtime(process.uptime())}*    
     *├ 📟 Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
     *├ ⚙️ Platform:- ${os.hostname()}*
-    *├ 👨‍💻 Owner:- Sahas Nethsara*   
+    *├ 👨‍💻 Owner:- Hashan*   
     *├ 👾 Version:- 1.0.0*
     └───────────────────────
-    *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+    *©🐼❤️‍🔥ッ*`
 return reply(`${status}`)
 }catch(e){
 console.log(e)
