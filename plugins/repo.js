@@ -15,17 +15,17 @@ let dec = `*👋 Hello ${pushname}*
 
 *📍REPO LINK ❤️‍🔥👇*
 
-🧚‍♀️◦https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main
+🧚‍♀️◦දෙන්නෑ 😏🫴
 
 *📍PLEASE SUBSCRIBE MY YOUTUBE CHANNEL ❤️‍🔥👇*
 
-🧚‍♀️◦ https://www.youtube.com/@Sahas_Tech
+🧚‍♀️◦ Coming soon...
 
 *📍PLEASE FOLLOW MY WHATSAPP CHANNEL❤️‍🔥👇*
 
-🧚‍♀️◦ https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+🧚‍♀️◦ Coming soon...
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+*©🐼❤️‍🔥ッ*
 
 `
 await conn.sendMessage(from,{image:{url: `https://i.ibb.co/my0RZww/IMG-20240913-WA0047.jpg`},caption:dec},{quoted:mek});
