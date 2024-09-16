@@ -21,7 +21,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
+*©🐼❤️‍🔥ッ* `;
 
         return reply(jokeMessage);
     } catch (e) {
