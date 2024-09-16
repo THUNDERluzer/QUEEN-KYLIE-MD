@@ -26,15 +26,11 @@ try{
 
 let about = ` *👋 Hello ${pushname}*
 
-*🧚QUEEN-KYLIE-MD Support Channels🧚*
+*🧚ගොබ්බයා......
 
-*Youtube Channel Link:* https://www.youtube.com/@Sahas_Tech
+*©🐼❤️‍🔥ッ*`
 
-*Whatsapp Channel Link:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
-
-return await conn.sendMessage(from,{image: {url:`https://i.ibb.co/XLbkDd4/IMG-20240913-WA0048.jpg`},caption:about},{quoted: mek})
+return await conn.sendMessage(from,{image: {url:`https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg`},caption:about},{quoted: mek})
 
 }catch(e){
 
