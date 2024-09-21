@@ -11,13 +11,13 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👋 Hello ${pushname}*
+let dec = `*👋💀 ආයුබෝවන් ${pushname}*
 
-> *MY OWNER INFO* 
+> *🐼💖 මිතුරනි* 
 
 *⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: Hashan*
 *⚡ɴᴜᴍʙᴇʀ* -: 94782543893*
-*⚡මාව සේව් දාන්න💁‍♂️ -:* https://wa.me/qr/P6WADRJOKAFUK1*
+*⚡මාව සේව් දාන්න💁‍♂️ -: https://wa.me/qr/P6WADRJOKAFUK1
 
 *©🐼❤️‍🔥ッ*
 `
